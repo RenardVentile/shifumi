@@ -1,0 +1,92 @@
+* { 
+    font-family: 'Quicksand', 'Fredoka One', cursive; 
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.4em;
+}
+body{
+    background-color: #F2EFEA;
+    margin: auto;
+    margin-top: 2%;
+}
+h2 {
+    font-family: 'Fredoka One', monospace;
+    font-size: 2em;
+}
+.reglement, .resultat-gagnant, .resultat-egalite, .resultat-perdant, .intro{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.mess-loose{
+    color: rgb(252, 135, 114);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+.mess-win{
+    color: rgb(74, 192, 255);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+.mess-equal{
+    color: rgb(102, 222, 184);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
+}
+.bouton-pierre, .bouton-feuille, .bouton-ciseaux {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(197, 215, 194);
+    margin: 10px;
+}
+.bouton-ordi-pierre, .bouton-ordi-feuille, .bouton-ordi-ciseaux{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(233, 232, 233);
+}
+.ordi-choix-txt, .user-choix-txt{
+    height: 50px;
+    width: 400px;
+}
+.bouton-pierre, .bouton-ordi-pierre {
+    background-image: url(icons8-hand-rock-96.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bouton-feuille, .bouton-ordi-feuille {
+    background-image: url(icons8-four-fingers-96.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bouton-ciseaux, .bouton-ordi-ciseaux {
+    background-image: url(icons8-hand-scissors-96.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.user, .ordi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+#refresh{
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border: none;
+    background-color: #F2EFEA;
+    margin: 3%;
+}

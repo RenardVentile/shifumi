@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Pacifico|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="css-shifumi.css">
+    
+    <title>Jeu Shifumi Pandacademy</title>
+</head>
+
+<body>
+<section>
+<article class="intro">
+    <div><img src="icons8-hello-96.png" alt="" height="60" width="60"></div>
+    <h1>Bienvenue sur le premier jeu de la <span class="logo">PandacademY</span> !</h1>
+</article>
+<h2>Shifumi</h2>
+<article class="reglement">
+    <div><img class="welcome-mess" src="icons8-brainstorm-skill-96.png" alt="" height="60" width="60"></div>
+    <div><p class="welcome-mess">Choisis bien et si tu perds, ne pleure pas !</p></div>
+</article>
+</section>
+
+<section class="resultat-gagnant">
+    <div><img src="icons8-happy-96.png" alt="" height="60" width="60"></div>
+    <div><p class="mess-win">Félicitations ! Tu as gagné face à la redoutable Pandacademy ! On rejoue ?!</p></div>
+    <div><img src="icons8-party-balloons-96.png" alt="" height="60" width="60"></div>
+</section>
+
+<section class="resultat-egalite">
+    <div><img src="icons8-the-toast-96.png" alt="" height="60" width="60"></div>
+    <div><p class="mess-equal">Egalité ! On rejoue ?!</p></div>
+    <div><img src="icons8-maracas-96.png" alt="" height="60" width="60"></div>
+</section>
+
+<section class="resultat-perdant">
+    <div><img src="icons8-boring-96.png" alt="" height="60" width="60"></div>
+    <div><p class="mess-loose">Oh oh ! Ca arrive même aux meilleurs de perdre ! On rejoue ?!</p></div>
+    <div><img src="icons8-carousel-96.png" alt="" height="60" width="60"></div>
+</section>
+
+<article class='game'>
+    <section class="user-choix-txt"><p>Alors ? Pierre, Feuille, ou Ciseaux ?</p></section>
+    <section class="user">
+        <button class="bouton-pierre"></button>
+        <button class="bouton-feuille"></button>
+        <button class="bouton-ciseaux"></button>
+    </section>
+
+    <section class="ordi-choix-txt"><p>De notre côté, on pense qu'on va choisir ...</p></section>
+    <section class="ordi">
+        <div class="bouton-ordi-pierre"></div>
+        <div class="bouton-ordi-feuille"></div>
+        <div class="bouton-ordi-ciseaux"></div>
+    </section>
+</article>
+
+<section id="refresh-container">
+    <button id="refresh"><img src="icons8-replay-96.png" alt="" height="60" width="60"></button>
+</section>
+
+
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src="js-shifumi.js"></script>
+</body>
+</html>
